@@ -6,7 +6,7 @@ pipeline {
                 sh 'echo "secondary_branch"'
                 sh '''
                     echo "Multiline shell steps works too --- 5 "
-                    ls -lah
+                    lso -lah
                 '''
             }
         }
